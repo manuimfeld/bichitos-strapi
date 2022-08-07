@@ -4,7 +4,8 @@
   "info": {
     "singularName": "alimento",
     "pluralName": "alimentos",
-    "displayName": "Alimentos"
+    "displayName": "Alimentos",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -14,7 +15,7 @@
     "Raza": {
       "type": "enumeration",
       "enum": [
-        "Perro: Adulto raza pequeño",
+        "Perro: Adulto raza pequeña",
         "Perro: Adulto raza grande",
         "Perro: Cachorro",
         "Gato: Bebe",
@@ -27,6 +28,9 @@
     },
     "Precio": {
       "type": "float"
+    },
+    "imgURL": {
+      "type": "string"
     }
   }
 }
