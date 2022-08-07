@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "alimentos",
+  "info": {
+    "singularName": "alimento",
+    "pluralName": "alimentos",
+    "displayName": "Alimentos"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Raza": {
+      "type": "enumeration",
+      "enum": [
+        "Perro: Adulto raza pequeño",
+        "Perro: Adulto raza grande",
+        "Perro: Cachorro",
+        "Gato: Bebe",
+        "Gato: Adulto",
+        "Gato: Urinary"
+      ]
+    },
+    "Nombre": {
+      "type": "string"
+    },
+    "Precio": {
+      "type": "float"
+    }
+  }
+}
